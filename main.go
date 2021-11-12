@@ -22,9 +22,8 @@ type MongoInstance struct {
 
 type Task struct {
 	// ID   primitive.ObjectID `bson:"_id"`
-	Name          string `bson:"name"`
-	Mobile_Number string `bson:"mobile_number"`
-	User_type     string `bson:"user_type"`
+	title          string `bson:"title"`
+	description string `bson:"description"`
 }
 var MI MongoInstance
 
